@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStefan.one</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .no-iframe {
+            display: none;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        noframes .no-iframe {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://www.mein.online-impressum.de/playstefan/">
+        <p class="no-iframe">Ihr Browser unterstützt keine Frames. Besuchen Sie bitte direkt - <a href="https://www.mein.online-impressum.de/playstefan/">PlayStefan.one</a></p>
+    </iframe>
+
+    <noframes>
+        <div class="no-iframe">
+            <p>Ihr Browser unterstützt keine Frames. Besuchen Sie bitte direkt - <a href="https://www.mein.online-impressum.de/playstefan/">PlayStefan.one</a></p>
+        </div>
+    </noframes>
+</body>
+</html>
